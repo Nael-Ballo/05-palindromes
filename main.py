@@ -2,10 +2,14 @@
 
 
 def ispalindrome(p):
-
-    # votre code ici
+    a = str(n)
+    b = a[::-1]
+    if a == b:
+        return True
+    else: 
+        return False
     
-    return False
+    
 
 #### Fonction principale
 
